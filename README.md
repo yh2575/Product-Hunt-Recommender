@@ -21,7 +21,8 @@ or to take into user properties, such as occupation, followings, followers, comm
 If so, I might then note the similarity between p1 and p2, and then conclude that since user1 upvoted p1, she/he
 is likely to upvote p2 as well. 
 
-In essense, out of all the new products coming out of each day, I want to suggest users the ones that similar to the products they upvoted before. 
+In essense, out of all the new products coming out of each day, I want to suggest users the ones that similar to the products they upvoted before. It may not even be necessary to find all items with the highest expected
+ratings, but only to find a large subset of those with upvotes.
 
 
 
