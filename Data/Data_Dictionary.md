@@ -2,11 +2,7 @@
 
 ## Post and User Files 
 
-The best, most-current data files to use for offline Post and User Analysis are PostsForAnalysis.txt and UsersForAnalysis.txt. These file are hefty and will require offline statistical computing environments like Python or R to analyze. You may change the extension from .txt to .csv if you wish, as their formatting is comma-separated.
-
-Post and User Files for Real-time Exploration on data.world
-
-To keep data exploration, queries, and visualizations on data.world smooth and speedy, we have randomly sampled the full PostsForAnalysis and UsersForAnalysis files down for real-time analysis. These are available below as PostsForExploration.csv and UsersForExploration.csv
+The best, most-current data files to use for offline Post and User Analysis are PostsForAnalysis.txt and UsersForAnalysis.txt. 
 
 ## AllTopics.csv
 
