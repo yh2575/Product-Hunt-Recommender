@@ -17,22 +17,16 @@ Data understanding encompasses data collection and initial exploratory data anal
 
 As the project went on, one road block that I ran into is that only the average number of stars is reported for each hike, not the star rating for each user and trip report author.  This detracts from the overall recommendation model as limits the depth of user-item interactions and does not allow models to recommend based on similar users.  
 
-![Graph of hikes w/ratings](img/starreviews.png)
 
 Therefore, I decided to make my own rating data, based on sentiment analysis of trip reports. This text data also had to be scraped. With experience and time comes wisdom, so this round, I used requests, BeautifulSoup and MongoDB to store my data neatly. I tried multiple methods of sentiment analysis on my trip reports, which is further discussed in data preparation and modeling.  
 
 
 ## Data Preparation
-Ah the favorite task of any data scientist- Data preparation.  This component covers all data cleaning that is required in order for the data to be used in the model.  Data preparation tasks included:
-  - Getting drive time estimates for each hike based on longitude and latitude data using the Google Maps API
-  - Creating dummy variables for hike features such as 'Lakes/Rivers', 'Summits', 'Allows dogs on leash'
-  - Mapping identification numbers to all hikes and trip report authors
-  - Normalize hike item data for use in recommendation model
-  - Building rating dataset and item data datasets for the GraphLab models
+Ah the favorite task of any data scientist- Data preparation.  This component covers all data cleaning that is required in order for the data to be used in the model.  
 
 
 ## Modeling
-Modeling and evaluation was required at three different points in the project: determining which hike features to include in the model, modeling sentiment analysis and building a custom rating system, and building the actual recommender system.
+Modeling and evaluation 
 
 ### Clustering and Feature Selection
 Following feature extraction, I had a total of about 25 features.  In attempt to find clusters of hikes and potential trends, I applied PCA dimensionality reduction and used k-means (k-means ++) to cluster the hikes.  No matter the number of reduced features or clusters, it seemed that the only prominent feature that was clustered on was elevation gain.
@@ -48,10 +42,9 @@ In order to determine which features to include in my item content similarity mo
   * Ridge regression
   * Lasso regression
 
-### Hike Feature Importance
+### Feature Importance
 In order to get an idea of potential feature importance and weighting in my item content similarity recommender, I ran a Gradient Boosted model with all of my features as the exogenous variables and the average star rating as the exogenous variable.
 
-![feature importance](img/featureimportance.png)
 
 
 ### Sentiment analysis
