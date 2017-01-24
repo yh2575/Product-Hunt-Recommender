@@ -1,5 +1,5 @@
-# CRISP-DM:  Rec The Trail
-_A Washington Trails Association Hike Recommender_
+# CRISP-DM:  Product Hunt Recommender 
+A product recommender for Product Hunt users 
 
 **The Cross Industry Standard Process for Data Mining (CRISP-DM) describes guidelines for data scientists who develop data products.**  
 
