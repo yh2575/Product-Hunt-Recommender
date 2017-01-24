@@ -5,7 +5,7 @@ _A Washington Trails Association Hike Recommender_
 
 The steps for CRISP-DM and their respective application to Rec The Trail are described below.
 
-![Image of CRISP-DM breakdown](img/crispdm.png)
+![Image of CRISP-DM breakdown](images/1024px-CRISP-DM_Process_Diagram.png)
 
 
 ## Business Understanding
