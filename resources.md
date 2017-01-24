@@ -3,7 +3,9 @@
   1. https://github.com/Jadetabony/wta_hikes
   
   2. https://github.com/cwschupp/Treatment-Recommender
-  
+
+# Recommender system reading 
+  1. http://web.stanford.edu/class/cs246/handouts.html
   
 # EDA Examples
 
