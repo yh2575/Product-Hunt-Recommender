@@ -8,7 +8,7 @@ Post and User Files for Real-time Exploration on data.world
 
 To keep data exploration, queries, and visualizations on data.world smooth and speedy, we have randomly sampled the full PostsForAnalysis and UsersForAnalysis files down for real-time analysis. These are available below as PostsForExploration.csv and UsersForExploration.csv
 
-AllTopics.csv
+## AllTopics.csv
 
 id - Topic ID number - for use in Product Hunt API requests
 name - Topic name / 'slug'
@@ -16,7 +16,7 @@ description - Topic description
 num_followers - Total number of followers (as of 11-29-2016)
 num_posts - Total number of posts (as of 11-29-2016); note that many products are posted to more than one topic
 
-PostsForAnalysis.txt 
+## PostsForAnalysis.txt 
 Columns 1 through 12 are:
 id - Post ID number
 date - Date in Month/Day/Year
@@ -48,7 +48,9 @@ Afternoon: 12pm to 4:59:59.999pm
 Evening: 5pm to 8:59:59.999pm
 Night: 9pm to 4:59:59.999am
 NOTE: All times in America/Los_Angeles timezone
-UsersForAnalysis.txt and UsersForExploration.csv
+
+
+## UsersForAnalysis.txt 
 
 id - User ID number
 created_at - Date/Time in Year-Month-DayT00:00:00.000-8:00
@@ -74,3 +76,5 @@ UsersForAnalysis.txt contains all users as of 11-30-2016, except hidden users. U
 Although the data dump from the Product Hunt API included posts from dates 11-24-2014 to 11-23-2016, one week's worth of the most recent posts (from 11-17-2016 to 11-23-2016) were removed to create PostsForAnalysis.txt.
 This week of posts was removed, because those posts had not been given ample time to receive votes, and thus would have on average fewer votes per post. Since the data contains plenty of posts across the two years, 
 it is okay to remove them. 
+
+these data above are from data.world 
