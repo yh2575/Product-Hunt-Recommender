@@ -73,4 +73,4 @@ Although the data dump from the Product Hunt API included posts from dates 11-24
 This week of posts was removed, because those posts had not been given ample time to receive votes, and thus would have on average fewer votes per post. Since the data contains plenty of posts across the two years, 
 it is okay to remove them. 
 
-these data above are from data.world 
+source: data.world 
