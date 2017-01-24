@@ -5,7 +5,8 @@ import sys, os
 import requests
 
 def get_many(link,filename,  payload):
-    '''scrap coments data'''
+    '''scrap comments data for 8199 pages
+       note: only max 50 comments per page'''
     for i in xrange(1033, 8200):
         offset = i
         payload['offset'] = i
