@@ -6,6 +6,7 @@
 
 # Recommender system reading 
   1. http://web.stanford.edu/class/cs246/handouts.html
+  2. https://turi.com/learn/userguide/recommender/choosing-a-model.html
   
 # EDA Examples
 
