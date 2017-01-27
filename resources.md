@@ -1,8 +1,9 @@
 # Recommender Examples 
 
-  1. https://github.com/Jadetabony/wta_hikes
+  1. https://github.com/Jadetabony/wta_hikes for recommender 
   
   2. https://github.com/cwschupp/Treatment-Recommender
+  3. https://github.com/asna1005/curious_quoran  for text 
 
 # Recommender system reading 
   1. http://web.stanford.edu/class/cs246/handouts.html
