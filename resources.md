@@ -8,6 +8,7 @@
 # Recommender system reading 
   1. http://web.stanford.edu/class/cs246/handouts.html
   2. https://turi.com/learn/userguide/recommender/choosing-a-model.html
+  3. http://blog.echen.me/2011/10/24/winning-the-netflix-prize-a-summary/
   
 # EDA Examples
 
