@@ -4,6 +4,7 @@
   
   2. https://github.com/cwschupp/Treatment-Recommender
   3. https://github.com/asna1005/curious_quoran  for text 
+  4. https://github.com/dvysardana/RecommenderSystems_PyData_2016/blob/master/Song%20Recommender_Python.ipynb
 
 # Recommender system reading 
   1. http://web.stanford.edu/class/cs246/handouts.html
