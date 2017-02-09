@@ -2,9 +2,10 @@
 Scraped producthunt.com API for 20 GB of user data, product data, rating data, and comment data. In addition, I downloaded other data from data.world. 
 
 ## Rating data 
--593185 ratings with 2573 users
+593185 ratings with 2573 users
 and 42010 products
--threshold: users > 50 ratings,
+
+threshold: users > 50 ratings,
 products > 10 ratings
 
 ## Post and User Files 
