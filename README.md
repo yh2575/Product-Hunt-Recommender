@@ -45,7 +45,7 @@ threshold: users > 50 ratings, products > 10 ratings
 
 ## Validation
 Local checks by randomly selecting product id and compare with the recommendations<br> 
-Local checks by randomly selecting a user id and make sense of the recommendations by comparing with the user's onine profile 
+Local checks by randomly selecting a user id and make sense of the recommendations by comparing with the user's online profile 
 
 ## Results
 For Ranking matrix factorization recommender, users get a diverse range of recommendations. Users’ interest and interactions with the website are captured<br>
