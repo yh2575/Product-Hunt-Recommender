@@ -24,9 +24,7 @@ def open_json_file(filename):
     return data
 
 if __name__ == '__main__':
-    token = {
-        "access_token" : "517fa0e53de79da4180a4b27d3d4000fee4e2dea1f6fdd026b311bfafbd0e163",
-        "token_type" : "bearer",
+    token = {ask me
     }
     base = "https://api.producthunt.com/v1/users/"
     get_many(base, 'user.json', token)
