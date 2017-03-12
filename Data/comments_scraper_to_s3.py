@@ -99,9 +99,7 @@ def convert_to_dataframe(df):
 if __name__ == '__main__':
     # filepath = 'https://s3.amazonaws.com/producthuntdata/comments.json'
     link = 'https://api.producthunt.com/v1/comments'
-    token = {
-    "access_token" : "517fa0e53de79da4180a4b27d3d4000fee4e2dea1f6fdd026b311bfafbd0e163",
-    "token_type" : "bearer"}
+    token = {ask me}
     #scrap comments from API
     filename = 'commentsdata.json'
     get_many(link,filename,token)
