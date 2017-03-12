@@ -31,6 +31,7 @@ threshold: users > 50 ratings, products > 10 ratings
 
 ## Tools
 Python, HTML, CSS<br>
+AWS<br>
 Matrix Factorization, Item-Content-recommender, Graphlab<br>
 Flask 
 
@@ -50,4 +51,4 @@ Local checks by randomly selecting a user id and make sense of the recommendatio
 ## Results
 For Ranking matrix factorization recommender, users get a diverse range of recommendations. Users’ interest and interactions with the website are captured<br>
 For Item-content recommender,users get top 5 most similar products of
-their interest.  
+their interest
