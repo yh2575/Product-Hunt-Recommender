@@ -1,3 +1,5 @@
+![Image](WebApp/web_app_homepage.png)
+
 # Motivation
 producthunt.com is a tech product newsfeed website. It currently shows all the users the same content. I want to build a recommendation system to include users' preferences, something like Pandora's recommenders. This is to aim improving user experince and helping reduce customer churn.
 
